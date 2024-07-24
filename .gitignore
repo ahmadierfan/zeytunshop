@@ -1,0 +1,8 @@
+.nuxt/
+
+node_modules/
+
+cgi-bin/
+
+.htaccess
+
