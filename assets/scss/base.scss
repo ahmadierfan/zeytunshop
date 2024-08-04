@@ -1,0 +1,93 @@
+*,
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    overflow-y: hidden;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.has-background-beuty-green {
+    background-color: #41b518;
+}
+
+.fifty-px-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.thirty-px-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.is-rounded-twenty {
+    border-radius: 20%;
+}
+
+.is-rounded-twenty-px {
+    border-radius: 20px;
+}
+
+.width-one-houndred-px {
+    width: 100px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.max-width-fifty-percent {
+    max-width: 50%;
+}
+
+.font-seventeen {
+    font-size: 17px;
+}
+
+.is-position-relative {
+    position: relative;
+}
+
+.min-height-fourty-five {
+    min-height: 45px;
+}
+
+.width-one-houndred-fifty-px {
+    width: 150px;
+}
+
+.is-position-absolute {
+    position: absolute;
+}
+
+.is-position-fixed {
+    position: fixed;
+}
+
+.mt-n1 {
+    margin-top: -10%;
+}
+
+/* for loading*/
+
+.loading-gif {
+    bottom: 0px;
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    .is-2-mobile {
+        flex: none !important;
+        width: 16.66667% !important;
+    }
+}

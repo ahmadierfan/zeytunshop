@@ -1,0 +1,64 @@
+/* for navbar */
+
+.exit-text {
+  left: 110px;
+  top: 12px;
+}
+
+.card-profile-icon {
+  position: fixed;
+  left: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 2;
+}
+
+.arrow-down {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.menu-text-shadow {
+  text-shadow: 1px 1px 1px black;
+}
+
+.menu-radius-style {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+/* for shake number basket*/
+
+
+.basket-number-animate {
+  animation: basket-number-animate 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes basket-number-animate {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

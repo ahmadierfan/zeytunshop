@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: samim;
+    src: url('~assets/fonts/Samim-FD.eot?#iefix') format('FontName-opentype'),
+      url('~assets/fonts/Samim-FD.woff') format('woff'),
+      url('~assets/fonts/Samim-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  *,
+  html,
+  body {
+    font-family: "samim" !important;
+    font-size: 13px;
+    direction: rtl;
+    overflow-x: hidden;
+  }
